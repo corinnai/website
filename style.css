@@ -324,9 +324,7 @@ a {
 
 .about_content {
   font-size: 1.5rem; 
- 
   color: var(--thrid-color);
-  /* padding: 3rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,7 +335,7 @@ a {
 }
 
 .download-cv {
-  margin-top: 5rem;
+  margin: 3rem;
   padding: 10px 20px;
   background-color: var(--fourth-color);
   color: var(--first-color);
@@ -581,13 +579,7 @@ footer .return-home {
     } */
     .layer {
       display: none; /* Hide layers on smaller screens */}
-    .about_content{
-      /* font-size: 1.5rem;
-      display: flex;
-      justify-content: flex-start; */
-      width: 100%;
-      padding: 10px;
-    }
+    
     .about_heading{
       display: flex;
       justify-content: center;

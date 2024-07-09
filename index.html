@@ -123,7 +123,7 @@
                 <p>Hello! I'm a Junior Developer with a deep passion for both playing and creating video games.
                     When I'm not coding or gaming like to spend my time playing guitar,drawing, hitting the gym or expand my horizons by learning new things. </p>
                 
-                    <a href="/portfoliooo/incercari/Corina_Maria_Ilie_CV.docx" class="download-cv" download="Corina_Ilie_CV">Download CV</a>
+                    <a href="/websitePORTOF/Corina_Maria_Ilie_CV (3) (1).docx" class="download-cv" download="Corina_Ilie_CV" >Download CV</a>
              </div>
 
              <div class="skills" id="skills">
@@ -156,6 +156,11 @@
                         <input type="checkbox"/>
                         <div class="skills-list">
                             <img src="mysql.png"/>MYSQL</div>
+                    </div>
+                    <div class="list">
+                        <input type="checkbox"/>
+                        <div class="skills-list">
+                            <img src="Csharp_Logo.png"/>C#</div>
                     </div>
             </div>
 
@@ -199,11 +204,11 @@
                     <img src="Screenshot 2024-05-16 145408.png"/>
                     </a>
                 </div>
-                <!-- <div class="projects-item">
-                    <a href="https://github.com/corinnai/flappycat.git" target="_blank" class="projects_img">
-                    <img src="Screenshot 2024-05-16 145408.png"/>
+                <div class="projects-item">
+                    <a href="https://github.com/corinnai/rainy-weather" target="_blank" class="projects_img">
+                    <img src="/websitePORTOF/rainy.png"/>
                     </a>
-                </div> -->
+                </div>
             </div>
         </section>
 
@@ -252,60 +257,62 @@
 
 
         <script>
-            // document.addEventListener('DOMContentLoaded', function() {
-            //     const switchInput = document.getElementById('switch');
-            //     const body = document.body;
+            document.addEventListener('DOMContentLoaded', function() {
+                const switchInput = document.getElementById('switch');
+                const body = document.body;
             
-            //     switchInput.addEventListener('change', function() {
-            //         if (switchInput.checked) {
-            //             body.style.backgroundColor = 'white';
-            //             body.style.color = 'black'; // Optional: Change text color for better readability
-            //         } else {
-            //             body.style.backgroundColor = 'var(--first-color)';
-            //             body.style.color = 'var(--thrid-color)'; // Revert text color
-            //         }
-            //     });/
-            // });
-        //     document.addEventListener('DOMContentLoaded', function() {
-        //     const switchInput = document.getElementById('switch');
-        //     const body = document.body;
-        //     const navbar = document.querySelector('.navbar');
-        //     const navLinks = document.querySelectorAll('.nav-link');
-        //     const skillIcons = document.querySelectorAll('.skills-list img');
-        //     const circles = document.querySelectorAll('.circle');
-        //     const projects = document.querySelector('.projects');
-        //     const contact = document.querySelector('.contact');
-        //     const footer = document.querySelector('footer');
-        //     const header = document.querySelector('header-content');
+                switchInput.addEventListener('change', function() {
+                    if (switchInput.checked) {
+                        body.style.backgroundColor = 'white';
+                        body.style.color = 'black'; // Optional: Change text color for better readability
+                    } else {
+                        body.style.backgroundColor = 'var(--first-color)';
+                        body.style.color = 'var(--thrid-color)'; // Revert text color
+                    }
+                });
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+            const switchInput = document.getElementById('switch');
+            const body = document.body;
+            const navbar = document.querySelector('.navbar');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const skillIcons = document.querySelectorAll('.skills');
+            const circles = document.querySelectorAll('.circle');
+            const projects = document.querySelector('.projects');
+            const contact = document.querySelector('.contact');
+            const footer = document.querySelector('footer');
+            const header = document.querySelector('header-content');
+            const form = document.querySelector('form');
         
 
-        //     switchInput.addEventListener('change', function() {
-        //         if (switchInput.checked) {
-        //             body.style.backgroundColor = 'white';
-        //             body.style.color = 'black';
-        //             navbar.style.backgroundColor = 'white';
-        //             navbar.style.backgroundColor = '#f0f0f0';
-        //             navLinks.forEach(link => link.classList.add('gradient-text'));
-        //             skillIcons.forEach(icon => icon.style.filter = 'invert(1)');
-        //             circles.forEach(circle => circle.style.backgroundColor = 'black');
-        //             projects.style.backgroundColor = '#f0f0f0';
-        //             contact.style.backgroundColor = 'white';
-        //             footer.style.backgroundColor = 'white';
+            switchInput.addEventListener('change', function() {
+                if (switchInput.checked) {
+                    body.style.backgroundColor = 'white';
+                    body.style.color = 'black';
+                    navbar.style.backgroundColor = 'white';
+                    navbar.style.backgroundColor = '#f0f0f0';
+                    navLinks.forEach(link => link.classList.add('gradient-text'));
+                    skillIcons.forEach(icon => icon.style.filter = 'invert(1)');
+                    circles.forEach(circle => circle.style.backgroundColor = 'black');
+                    projects.style.backgroundColor = '#f0f0f0';
+                    contact.style.backgroundColor = 'white';
+                    footer.style.backgroundColor = 'white';
+                    form.style.bac
                    
-        //         } else {
-        //             body.style.backgroundColor = 'var(--first-color)';
-        //             body.style.color = 'var(--thrid-color)';
-        //             navbar.style.backgroundColor = 'var(--second-color)';
-        //             navbar.style.borderBottom = 'none';
-        //             navLinks.forEach(link => link.style.color = 'var(--fifth-color)');
-        //             skillIcons.forEach(icon => icon.style.filter = 'none');
-        //             circles.forEach(circle => circle.style.backgroundColor = 'linear-gradient(45deg, #66FCF1, #2f6966)');
-        //             projects.style.backgroundColor = 'var(--second-color)';
-        //             contact.style.backgroundColor = 'var(--first-color)';
-        //             footer.style.backgroundColor = 'var(--second-color)';
-        //         }
-        //     });
-        // });
+                } else {
+                    body.style.backgroundColor = 'var(--first-color)';
+                    body.style.color = 'var(--thrid-color)';
+                    navbar.style.backgroundColor = 'var(--second-color)';
+                    navbar.style.borderBottom = 'none';
+                    navLinks.forEach(link => link.style.color = 'var(--fifth-color)');
+                    skillIcons.forEach(icon => icon.style.filter = 'none');
+                    circles.forEach(circle => circle.style.backgroundColor = 'linear-gradient(45deg, #66FCF1, #2f6966)');
+                    projects.style.backgroundColor = 'var(--second-color)';
+                    contact.style.backgroundColor = 'var(--third-color)';
+                    footer.style.backgroundColor = 'var(--second-color)';
+                }
+            });
+        });
         // document.addEventListener('DOMContentLoaded', function() {
         //     const switchInput = document.getElementById('switch');
         //     const body = document.body;
