@@ -334,7 +334,7 @@ a {
   
 }
 
-.download-cv {
+/* .download-cv {
   margin: 3rem;
   padding: 10px 20px;
   background-color: var(--fourth-color);
@@ -345,10 +345,10 @@ a {
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
-.download-cv:hover {
+} */
+/* .download-cv:hover {
   background-color: var(--fifth-color);
-}
+} */
 .layer {
     position: absolute;
     background: linear-gradient(45deg, #66FCF1, #2f6966);
